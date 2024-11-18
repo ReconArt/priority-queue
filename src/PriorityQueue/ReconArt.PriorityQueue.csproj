@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0;</TargetFrameworks>
+	  <Nullable>enable</Nullable>
+	  <Description>Fast and efficient implementation of a Priority Queue.</Description>
+	  <Copyright>Copyright © ReconArt, Inc. 2008-2024</Copyright>
+	  <Authors>ReconArt, Inc.</Authors>
+	  <Company>ReconArt, Inc.</Company>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+	  <RepositoryUrl>https://github.com/ReconArt/priority-queue</RepositoryUrl>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>ReconArt Priority Queue PriorityQueue</PackageTags>
+	  <PackageVersion>1.0.2</PackageVersion>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageReadmeFile>PACKAGE.md</PackageReadmeFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="PACKAGE.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
