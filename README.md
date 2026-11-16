@@ -10,7 +10,7 @@
 - Supports 6 priority levels
 - Simple API for enqueueing, dequeueing, and removing elements
 - Designed for scenarios where a limited number of priority levels are sufficient
-- Supports .NET 8.0 and .NET 9.0
+- Supports .NET 10 and .NET 11. Projects on older frameworks stay on version 1.0.x, which targets .NET Standard 2.0 and 2.1.
 
 ## Installation
 
